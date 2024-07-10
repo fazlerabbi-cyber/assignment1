@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Azeret Mono";
+
+}
+
+header {
+    background-image: url('../assets/Hero-bg.png');
+    width: 100%;
+    height: 652px;
+}
+
+.content {
+    display: flex;
+    width: 62.38rem;
+    margin: 0 auto;
+    height: 36.37rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content h2 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.content img {
+    width: 15.02rem;
+    height: 15rem;
+}
+
+.content button {
+    width: 13rem;
+    height: 4.13rem;
+    background-color: rgb(13, 19, 33);
+    color: white;
+    font-size: 1.25rem;
+}
+
+.style {
+    display: flex;
+    justify-content: space-around;
+    width: 59.13rem;
+    height: 21rem;
+    padding: 48px;
+    background-image: linear-gradient(90deg, white, rgba(13, 19, 33, 0.02));
+}
+
+.style h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.why-head {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.why-head h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.what {
+    border-radius: 1rem;
+
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.style button {
+    width: 10.69rem;
+    height: 2.94rem;
+    background-color: white;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.style img {
+    width: 13.95rem;
+    height: 13.05rem;
+}
+
+.size {
+    width: 29.81rem;
+    height: 13.69rem;
+}
+
+.all {
+    width: 71.25rem;
+    height: 87.19rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+/* this is video title */
+.video-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 88px;
+    margin-bottom: 48px;    
+}
+/* target sectin */
+.target-flex{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.target-container{
+    width: 22.75rem;
+height: 18.69rem;
+     border-radius: 1rem;
+    padding: 2.5rem;
+    
+  
+}
+.color1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.color2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.color3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.middle{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle h1{
+    margin-bottom: 5px;
+}
